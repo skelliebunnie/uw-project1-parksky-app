@@ -40,7 +40,7 @@ $("document").ready(function() {
 			if(date === "" || date === undefined) {
 				date = dayjs().format("YYYY-MM-DD");
 			}
-			$("#site-header").html(data);
+			$("body").prepend(data);
 			$("#searchParksSelect").val(parkCode);
 			$("#visitDate").val(date);
 
