@@ -20,14 +20,22 @@ p {
 }
 
 .parallax-container {
+  width: 100%;
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  background-color: rgba(0,0,0,0.45);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#visitDate,
+.select-wrapper input.select-dropdown {
+  background-color: white;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
